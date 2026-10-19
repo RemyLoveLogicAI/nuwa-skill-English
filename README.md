@@ -101,6 +101,64 @@ Naval     ❯ 你列了三个欲望。每个欲望都是你跟不快乐签的一
 
 ---
 
+## 快速上手（引导式 onboarding）
+
+如果你想马上试一把，选一条路径：
+
+### A) 网页端大模型（ChatGPT / Claude）
+
+1. 打开模型：
+   - ChatGPT: https://chatgpt.com/
+   - Claude: https://claude.ai/new
+2. 直接粘贴这段启动提示词：
+
+```text
+我想用 Nuwa 创建一个 perspective skill。
+目标人物：Charlie Munger
+用途：投资与职业选择的决策顾问
+模式：先做网络调研
+输出语言：English
+
+请按 Nuwa 流程一步步执行：
+1）快速澄清范围，
+2）创建 skill 目录结构，
+3）按 6 个维度产出研究笔记，
+4）提炼 mental models / heuristics / expression DNA，
+5）生成可运行 SKILL.md，并包含诚实边界和不确定性规则。
+```
+
+3. 如果你还没想好蒸馏谁，用这段：
+
+```text
+我还不知道蒸馏谁。
+我的需求：我想提升不确定条件下的决策质量。
+请走 Nuwa 的诊断路径，推荐 3 个候选并说明取舍。
+```
+
+### B) CLI（Codex / Claude Code）
+
+1. 先安装 Nuwa：
+
+```bash
+npx skills add alchaincyf/nuwa-skill
+```
+
+2. 在你的 agent CLI（`codex` 或 `claude`）里输入：
+
+```text
+Distill Charlie Munger into a perspective skill, English output.
+```
+
+或：
+
+```text
+I need a thinking advisor for startup decisions. Diagnose and recommend who to distill first.
+```
+
+小提示：先给一个明确目标 + 一个具体使用场景，Nuwa 产出会更稳。
+
+---
+
 ## 安装
 
 ```bash
