@@ -62,6 +62,63 @@ This is not role-play. Naval uses his "desire as contract" mental model. Musk us
 
 ---
 
+## Quick Try (Guided Onboarding)
+
+If you want to try Nuwa immediately, pick one path:
+
+### A) Web LLM (ChatGPT / Claude)
+
+1. Open a model:
+   - ChatGPT: https://chatgpt.com/
+   - Claude: https://claude.ai/new
+2. Paste the quick-start prompt below:
+
+```text
+I want to build a perspective skill with Nuwa.
+Target: Charlie Munger
+Use case: decision advisor for investing and career choices
+Mode: web research first
+Output language: English
+
+Please run the Nuwa flow step by step:
+1) clarify scope quickly,
+2) create the skill directory structure,
+3) produce research notes by the 6 dimensions,
+4) extract mental models/heuristics/expression DNA,
+5) generate runnable SKILL.md with honest boundaries and uncertainty rules.
+```
+
+3. If you're unsure about target person, use this instead:
+
+```text
+I don't know who to distill.
+My need: I want better decisions under uncertainty.
+Use Nuwa's diagnostic route and recommend 3 candidates with trade-offs.
+```
+
+### B) CLI (Codex / Claude Code)
+
+1. Install Nuwa:
+
+```bash
+npx skills add alchaincyf/nuwa-skill
+```
+
+2. Open your coding agent CLI (`codex` or `claude`) in your project folder.
+3. Paste one of these commands:
+
+```text
+Distill Charlie Munger into a perspective skill, English output.
+```
+
+```text
+I need a thinking advisor for startup decisions. Diagnose and recommend who to distill first.
+```
+
+Tip: Start with one concrete target + one use case. Nuwa performs best with a clear operating context.
+
+---
+
 ## Install
 
 ```bash
